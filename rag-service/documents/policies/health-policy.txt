@@ -1,0 +1,24 @@
+Health Insurance Policy
+
+Policy Name: Premium Health Plan
+
+Coverage:
+The policy covers hospitalization expenses, emergency treatment,
+doctor consultations, diagnostic tests, and prescribed medicines.
+
+Alternative Treatments:
+The policy covers approved alternative treatments including
+Ayurveda, Yoga, Naturopathy, Unani, Siddha, and Homeopathy,
+subject to the policy terms and conditions.
+
+Acupuncture:
+Acupuncture treatment is covered only when it is provided at
+an authorized medical facility and meets the conditions specified
+in the policy.
+
+Exclusions:
+Cosmetic treatments and experimental treatments are not covered.
+
+Policy Region:
+Coverage is applicable across the United States, subject to
+network and regional restrictions.
