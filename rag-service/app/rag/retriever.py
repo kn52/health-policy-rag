@@ -1,4 +1,4 @@
-from app.embeddings.embedding_service import generate_embedding
+from app.services.embedding_service import generate_embedding
 from app.vector_store.lancedb_store import get_table
 
 

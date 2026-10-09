@@ -1,0 +1,22 @@
+rag-service/
+└── app/
+    ├── api/
+    │   ├── policy/
+    │   │   └── policy_routes.py
+    │   └── healthcare/
+    │       ├── __init__.py
+    │       ├── healthcare_store.py
+    │       ├── patient_routes.py
+    │       ├── patient_models.py
+    │       ├── doctor_routes.py
+    │       ├── doctor_models.py
+    │       ├── appointment_routes.py
+    │       ├── appointment_models.py
+    │       ├── prescription_routes.py
+    │       ├── prescription_models.py
+    │       ├── billing_routes.py
+    │       ├── billing_models.py
+    │       └── dashboard_routes.py
+    ├── services/
+    │   └── rag_service.py
+    └── main.py

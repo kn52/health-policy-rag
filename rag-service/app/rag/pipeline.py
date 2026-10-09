@@ -1,6 +1,6 @@
 from app.rag.loader import load_txt
 from app.rag.chunker import chunk_text
-from app.embeddings.embedding_service import generate_embedding
+from app.services.embedding_service import generate_embedding
 from app.vector_store.lancedb_store import create_table
 
 

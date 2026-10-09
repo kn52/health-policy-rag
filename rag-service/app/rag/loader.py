@@ -1,33 +1,21 @@
+
 from pathlib import Path
-from pypdf import PdfReader
 
 
-def load_pdf(file_path: str) -> list[dict]:
-    reader = PdfReader(file_path)
-
-    documents = []
-
-    for page_number, page in enumerate(reader.pages, start=1):
-        text = page.extract_text() or ""
-
-        if text.strip():
-            documents.append(
-                {
-                    "text": text.strip(),
-                    "page": page_number,
-                    "source": Path(file_path).name,
-                }
-            )
-
-    return documents
-
-
-def load_txt(file_path: str) -> dict:
+def load_document(file_path: str) -> str:
     path = Path(file_path)
 
-    text = path.read_text(encoding="utf-8")
+    if not path.exists():
+        raise FileNotFoundError(
+            f"Document not found: {path.resolve()}"
+        )
 
-    return {
-        "text": text.strip(),
-        "source": path.name
-    }
+    if path.suffix.lower() != ".txt":
+        raise ValueError("Currently, only .txt files are supported.")
+
+    text = path.read_text(encoding="utf-8").strip()
+
+    if not text:
+        raise ValueError("Document is empty.")
+
+    return text

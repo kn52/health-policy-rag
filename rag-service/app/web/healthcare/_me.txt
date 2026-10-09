@@ -1,0 +1,19 @@
+apps/healthcare/
+├── src/
+│   ├── api/
+│   │   └── api.js
+│   ├── components/
+│   │   ├── Layout.jsx
+│   │   └── DataTable.jsx
+│   ├── pages/
+│   │   ├── Dashboard.jsx
+│   │   ├── Patients.jsx
+│   │   ├── Doctors.jsx
+│   │   ├── Appointments.jsx
+│   │   ├── Prescriptions.jsx
+│   │   └── Billing.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .env
+└── package.json

@@ -1,7 +1,6 @@
 # python gitignore file
 
 .venv/
-.env
 __pycache__/
 *.pyc
 vector_db/

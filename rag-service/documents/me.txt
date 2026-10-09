@@ -1,0 +1,11 @@
+
+Premium Health Plan - Policy Summary
+
+Acupuncture Coverage:
+Acupuncture treatments may be covered when performed at an authorized facility and when the treatment meets the plan's coverage conditions.
+
+Network Restrictions:
+Coverage may depend on the member's network and regional restrictions. Members should verify eligibility and facility authorization before receiving treatment.
+
+Important:
+This is a sample policy summary for development and testing. Refer to the official plan documents for actual coverage decisions.

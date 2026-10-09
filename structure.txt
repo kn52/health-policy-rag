@@ -1,0 +1,49 @@
+healthcare-system/
+│
+├── frontend/                         # React.js
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── common/
+│   │   │   └── layout/
+│   │   ├── pages/
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── AskPolicy.jsx
+│   │   │   ├── Documents.jsx
+│   │   │   └── Patients.jsx
+│   │   ├── services/
+│   │   │   └── ragApi.js
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── .env
+│   └── package.json
+│
+├── rag-service/                      # Python FastAPI
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── api/
+│   │   │   ├── routes.py
+│   │   │   └── document_routes.py
+│   │   ├── models/
+│   │   ├── services/
+│   │   │   ├── rag_service.py
+│   │   │   └── embedding_service.py
+│   │   ├── rag/
+│   │   │   ├── loader.py
+│   │   │   ├── chunker.py
+│   │   │   ├── retriever.py
+│   │   │   └── pipeline.py
+│   │   ├── vector_store/
+│   │   │   └── lancedb_store.py
+│   │   └── config.py
+│   │
+│   ├── documents/
+│   │   └── policies/
+│   ├── vector_db/
+│   ├── tests/
+│   ├── .env
+│   └── requirements.txt
+│
+├── .gitignore
+└── README.md
